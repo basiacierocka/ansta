@@ -1,74 +1,70 @@
 body {
-background-color:#404040;
-color: #ccc;
-font-family: 'Anaheim', sans-serif;
-font-size:160%;
+    background-color: #404040;
+    color: #ccc;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 160%;
 }
-.orange-line{
-	background-color:#ff5c33;
-	position:absolute;
-	height: 5px;
-	width: 100%;
-	top:0px;
+.orange-line {
+    background-color: #ff5c33;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    top: 0px;
 }
-.main-container{
-margin-top: 4%;
+.main-container {
+    margin-top: 4%;
 }
-h2{
-color:#ffc2b3;
+h2 {
+    color: #ffc2b3;
 }
-.site-name{
-background-color: #ff5c33;
-color: #262626;
-padding: 1%;
-font-size: 1.2em;
-border-radius:4px;
+.site-name {
+    background-color: #ff5c33;
+    color: #262626;
+    padding: 1%;
+    font-size: 1.2em;
+    border-radius: 4px;
 }
-
 .panel {
     display: none;
     background-color: #456676;
 }
-.buttons-space{
-float:right;
-width: 30%;
+.buttons-space {
+    float: right;
+    width: 30%;
 }
 button {
-	margin: 4px 0px;
+    margin: 4px 0px;
 }
 input {
-background-color: #ffffff;
-float:right;
-color: #120d07;
-margin: 4px 0px; 
-border-style: none;
-padding: 2%; 
-border-radius:4px;
-clear: left;
+    background-color: #ffffff;
+    float: right;
+    color: #120d07;
+    margin: 4px 0px;
+    border-style: none;
+    padding: 2%;
+    border-radius: 4px;
+    clear: left;
 }
-button, input:hover {
-background-color: #ccc;
+button,
+input:hover {
+    background-color: #ccc;
 }
-
-tbody tr:nth-child(2n+0){
-	background-color: #595959;
+tbody tr:nth-child(2n+0) {
+    background-color: #595959;
 }
-
 tbody tr:nth-child(4n+0) {
-background-color: #737373;
+    background-color: #737373;
 }
-
 .hover {
-background-color: rgba(255,255,255,0.5);
-color: #000000; 
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
 }
-
-footer{
-	position:absolute;
-	bottom:0px;
-	text-align: center;
-	font-size:1em;
-	width: 100%;
-	background-color:#ff5c33;
-color: #262626;
+footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    background-color: #ff5c33;
+    color: #262626;
 }

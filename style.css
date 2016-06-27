@@ -60,7 +60,7 @@ tbody tr:nth-child(4n+0) {
     color: #000000;
 }
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     text-align: center;
     font-size: 1em;
