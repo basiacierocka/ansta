@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang ="pl">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="strona utworzona w ramach procesu rekrutacji do ANSTA">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dane osobowe</title>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="script.js"></script>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="orange-line"></div>
+      <div class="row main-container">
+         <div class="col-lg-2 col-md-1"></div>
+         <div class="col-lg-8 col-md-10">
+            <h2>Dane osobowe</h2>
+            <p class="site-name">Lista</p>
+            <div class="table-responsive">
+               <div class='buttons-space'>
+                  <button type="button" class="btn btn-default" aria-label="Back">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  </button>
+                  <button type="button" class="btn btn-default" aria-label="Next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  </button>
+                  <input type="button" class="flip" value='Pokaż wszystkie szczegóły'>  
+               </div>
+               <table class="table">
+                  <thead>
+                     <tr class="thead">
+                        <th>Nazwisko</th>
+                        <th>Imię</th>
+                        <th>Adres</th>
+                        <th>PESEL</th>
+                        <th>E-mail</th>
+                        <th></th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <!--pierwszy wers-->
+                     <tr class="list-row" id="flip-one">
+                        <td class="col-lg-3">Pitt</td>
+                        <td class="col-lg-3">Anna</td>
+                        <td class="col-lg-3">ul.Zawiejska 47 80-102 Gdańsk</td>
+                        <td class="col-lg-3">90120234262</td>
+                        <td class="col-lg-3">pittanna@wp.pl</td>
+                     </tr>
+                     <tr class="panel" >
+                        <td colspan="5">
+                           <div class="row">
+                              <p class="details-container-1 col-lg-3"  >
+                                 <b>Nazwisko:</b>Pitt<br>
+                                 <b>Imię:</b> Anna<br>
+                                 <br>
+                                 <b>Adres:</b>ul.Zawiejska 47 80-102 Gdańsk<br>
+                                 <b>E-mail:</b>pittanna@wp.pl<br>
+                                 <b>Tel:</b> 845675056<br>
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>PESEL:</b>90120234262<br>
+                                 <b>NIP:</b> 34567556<br>
+                                 <br>
+                                 <b>Data ur.:</b> 02.12.1990<br>
+                                 <b>Miejsce ur.:</b> Gdańsk
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>Nazwisko rodowe:</b>Tuba<br>
+                                 <b>Drugie imię:</b> Dorota<br>
+                                 <b>Imię ojca: </b>Franciszek<br>
+                                 <b>Imię i nazwisko matki: </b>Natalia Sad
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>Dokument tożsamości:</b> dowód osobisty<br> 
+                                 <b>Seria i nr.:</b> SDC 345289<br>
+                                 <b>Wydany przez: </b>Prezydenta Miasta Gdańska
+                              </p>
+                           </div>
+                        </td>
+                     </tr>
+                     <!--drugi wers-->
+                     <tr class="list-row" id="flip-two">
+                        <td>Kowalski</td>
+                        <td>Jan</td>
+                        <td>ul.Pomorska 23 80-409 Gdańsk</td>
+                        <td>94123055222</td>
+                        <td>kowalskijanek234@wp.pl</td>
+                     </tr>
+                     <tr class="panel">
+                        <td colspan="5">
+                           <div class="row">
+                              <p class="details-container-1 col-lg-3"  >
+                                 <b>Nazwisko: </b>Kowalski<br>
+                                 <b>Imię: </b> Jan<br>
+                                 <br>
+                                 <b>Adres: </b>ul.Pomorska 23 80-409 Gdańsk<br>
+                                 <b>E-mail: </b>kowalskijanek234@wp.pl<br>
+                                 <b>Tel: </b> 675231429<br>
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>PESEL: </b>94123055222<br>
+                                 <b>NIP: </b> 96876990<br>
+                                 <br>
+                                 <b>Data ur.: </b> 30.12.1994<br>
+                                 <b>Miejsce ur.: </b> Gdynia
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>Nazwisko rodowe: </b>Kowalski<br>
+                                 <b>Drugie imię: </b>brak<br>
+                                 <b>Imię ojca: </b>Roman<br>
+                                 <b>Imię i nazwisko matki: </b>Krystyna Nowak
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>Dokument tożsamości: </b> dowód osobisty<br> 
+                                 <b>Seria i nr.: </b> API 765234<br>
+                                 <b>Wydany przez: </b>Prezydenta Miasta Gdańska
+                              </p>
+                           </div>
+                        </td>
+                     </tr>
+                     <!--trzeci wers-->
+                     <tr class="list-row" id="flip-three">
+                        <td>Szwacz</td>
+                        <td>Dorota</td>
+                        <td>ul.Kamieńska 67 80-240 Reda</td>
+                        <td>85051457652</td>
+                        <td>szwador@op.pl</td>
+                     </tr>
+                     <tr class="panel">
+                        <td colspan="5">
+                           <div class="row">
+                              <p class="details-container-1 col-lg-3"  >
+                                 <b>Nazwisko: </b>Szwacz<br>
+                                 <b>Imię: </b> Dorota<br>
+                                 <br>
+                                 <b>Adres: </b>ul.Obwodowa 67 80-240 Reda<br>
+                                 <b>E-mail: </b>szwador@op.pl<br>
+                                 <b>Tel: </b> 865765431<br>
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>PESEL: </b>85051457652<br>
+                                 <b>NIP: </b> 94588890<br>
+                                 <br>
+                                 <b>Data ur.: </b> 14.05.1985<br>
+                                 <b>Miejsce ur.: </b> Wejherowo
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>Nazwisko rodowe: </b>Szwacz<br>
+                                 <b>Drugie imię: </b>Antonina<br>
+                                 <b>Imię ojca: </b>Krzysztof<br>
+                                 <b>Imię i nazwisko matki: </b>Wanda Kotecka
+                              </p>
+                              <p class="details-container col-lg-3">
+                                 <b>Dokument tożsamości: </b> dowód osobisty<br> 
+                                 <b>Seria i nr.: </b> ISI 113834<br>
+                                 <b>Wydany przez: </b>Burmistrz Miasta Reda
+                              </p>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <div class="col-lg-2 col-md-1"></div>
+      </div>
+      <footer>
+         <p class="footer=container">by Barbara Cierocka</p>
+      </footer>
+   </body>
+</html>
